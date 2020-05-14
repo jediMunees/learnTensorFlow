@@ -1,84 +1,19 @@
 # learnTensorFlow
 
-<style>
-th, td {
-    padding: 10px;
-    border: 1px solid #666;
-}
+<h2 style="font-size: 1.8em;text-align: center;color: SaddleBrown;font-family: Verdana, Geneva, Tahoma, sans-serif;"><b> Learn TensorFlow </b></h2>
 
-h2 {
-    font-size: 1.8em;
-    text-align: center;
-    color: SaddleBrown;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-h3,h4 {
-    color: DarkSlateGrey;
+<h3 style="color: DarkSlateGrey;
     font-size: 1.2em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+    font-family: Verdana, Geneva, Tahoma, sans-serif;"> Setup: </h3>
 
-h5 {
-    color: DarkSlateGrey;
-    font-size: 0.9em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-#d1 {
-     color: red;
-}
-
-.setupBoxDiv {
-    background-color: Beige;
+<div class="setupBoxDiv" style="background-color: Beige;
     border: solid;
     border-width: 1px;
     border-color: cornflowerblue;
     margin: 0px 2px 15px 2px;
     padding: 0px 17px 5px 17px;
     border-radius: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.courseraBoxDiv {
-    background-color: LightSkyBlue;
-    border: solid;
-    border-width: 1px;
-    border-color: cornflowerblue;
-    margin: 0px 2px 15px 2px;
-    padding: 0px 17px 5px 17px;
-    border-radius: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.googleBoxDiv {
-    background-color: LightSkyBlue;
-    border: solid;
-    border-width: 1px;
-    border-color: cornflowerblue;
-    margin: 0px 2px 15px 2px;
-    padding: 0px 17px 5px 17px;
-    border-radius: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.boxdiv {
-    background-color: BurlyWood;
-    border: solid;
-    border-width: 1px;
-    border-color: cornflowerblue;
-    margin: 0px 2px 15px 2px;
-    padding: 0px 17px 5px 17px;
-    border-radius: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-</style>
-
-<h2><b> Learn TensorFlow </b></h2>
-<h3> Setup: </h3>
-
-<div class="setupBoxDiv">
+    font-family: Verdana, Geneva, Tahoma, sans-serif;">
 <p>
     <ul>
         <li> 
@@ -99,7 +34,7 @@ h5 {
 <p>Also make sure that "python.languageServer" is set to "Jedi" instead of "Microsoft" in vscode settings.
 Otherwise memory usage will be around 1GB and it will slow down the PC. vscode team is working on this memory issue. <br>
 </p>
-<div id="d1"> 
+<div id="d1" style="color: red;"> 
 &emsp; Json settings in vscode: "python.languageServer": "Jedi" </div>
         </li>
     </ul>
@@ -112,15 +47,22 @@ Otherwise, some packages may not work.
 </li></ul>
 </p>
 </div>
-    
 
 
-<h3> Step-1: Get detailed understanding of Machine Learning via Stanford University - Coursera course </h3>
-<div class="courseraBoxDiv">
+<h3 style="color: DarkSlateGrey;
+    font-size: 1.2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;"> Step-1: Get detailed understanding of Machine Learning via Stanford University - Coursera course </h3>
 
-<p><ul><li> 
-<a href="https://www.coursera.org/learn/machine-learning" target="blank_"><b> <em> Hit Coursera ML Course here  </em>  </b> </a><br>
-</li></ul></p>
+<div class="courseraBoxDiv" style="background-color: LightSkyBlue;
+    border: solid;
+    border-width: 1px;
+    border-color: cornflowerblue;
+    margin: 0px 2px 15px 2px;
+    padding: 0px 17px 5px 17px;
+    border-radius: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;">
+
+<p><ul><li><a href="https://www.coursera.org/learn/machine-learning" target="blank_"><b> <em> Hit Coursera ML Course here</em></b></a><br></li></ul></p>
 
 <p>
 <ul><li>
@@ -135,25 +77,39 @@ Otherwise, some packages may not work.
         Materials and assignments are free in Coursera. 
 </ul></li>
 <ul><li>
-        <p>If you pay after completing the course, you will get certificate like this
-        
-        <a href=https://www.coursera.org/account/accomplishments/verify/YS5P9JM3MJV8?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=course" target="blank_"> <em> certificate reference </em> </a><br> </p>
+<p>If you pay after completing the course, you will get certificate like this
+<a href=https://www.coursera.org/account/accomplishments/verify/YS5P9JM3MJV8?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=course" target="blank_"> <em> certificate reference </em></a>
 </ul></li>
 </p>
 </div>
 
+<h3 style="color: DarkSlateGrey;
+    font-size: 1.2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;"> Step-2: Enroll Machine Learning crash course at Google </h3>
 
-<h3> Step-2: Enroll Machine Learning crash course at Google </h3>
-<div class="googleBoxDiv">
+<div class="googleBoxDiv" style="background-color: LightSkyBlue;
+    border: solid;
+    border-width: 1px;
+    border-color: cornflowerblue;
+    margin: 0px 2px 15px 2px;
+    padding: 0px 17px 5px 17px;
+    border-radius: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;">
 
 <p><ul><li> 
 <a href="https://developers.google.com/machine-learning/crash-course" target="blank_"><b> <em> Hit Google ML Crash Course here  </em> </b> </a><br>
 </li></ul></p>
 
 <ul><li> 
-<h5> Points to note between Coursera and Google ML course: </h5>
+<h5 style="color: DarkSlateGrey;font-size: 0.9em;font-family: Verdana, Geneva, Tahoma, sans-serif;"> Points to note between Coursera and Google ML course: </h5>
 </li></ul>
 <table frame="box">
+<style>
+th, td {
+    padding: 10px;
+    border: 1px solid #666;
+}
+</style>
 <tr>
     <th> Coursera </th>
     <th> Google </th>
@@ -185,7 +141,14 @@ Otherwise, some packages may not work.
 </table>
 </div>
 
-<div class="boxdiv">
+<div class="boxdiv" style="background-color: BurlyWood;
+    border: solid;
+    border-width: 1px;
+    border-color: cornflowerblue;
+    margin: 0px 2px 15px 2px;
+    padding: 0px 17px 5px 17px;
+    border-radius: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;">
 <p>
 <ul><li><em>
 Still in progress...More updates are coming </em> <br><br>
